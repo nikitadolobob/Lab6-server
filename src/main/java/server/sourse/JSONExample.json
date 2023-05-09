@@ -1,0 +1,72 @@
+{
+  "Movies": [
+    {
+      "oscarsCount": "4",
+      "director": {
+        "eyeColor": "GREEN",
+        "nationality": "GERMANY",
+        "name": "Bob Gale",
+        "weight": "68.0",
+        "location": {
+          "x": "5.345",
+          "y": "675",
+          "z": "10.2"
+        },
+        "hairColor": "BLACK"
+      },
+      "name": "Back to the future",
+      "coordinates": {
+        "x": "3",
+        "y": "3.1415"
+      },
+      "genre": "SCIENCE_FICTION",
+      "id": "1",
+      "creationDate": "2023-02-12T19:06:57.841735504+03:00[Europe\/Moscow]"
+    },
+    {
+      "oscarsCount": "4",
+      "director": {
+        "eyeColor": "BLACK",
+        "nationality": "INDIA",
+        "name": "Nameee",
+        "weight": "100.0",
+        "location": {
+          "x": "1.0",
+          "y": "1",
+          "z": "1.0"
+        },
+        "hairColor": "BLACK"
+      },
+      "name": "MegaMovie",
+      "coordinates": {
+        "x": "2",
+        "y": "2.0"
+      },
+      "genre": "DRAMA",
+      "id": "2",
+      "creationDate": "2023-02-12T19:43:45.537355929+03:00[Europe\/Moscow]"
+    },
+    {
+      "oscarsCount": "4",
+      "director": {
+        "nationality": "GERMANY",
+        "name": "3",
+        "weight": "4.0",
+        "location": {
+          "x": "4.0",
+          "y": "4",
+          "z": "4.0"
+        },
+        "hairColor": "RED"
+      },
+      "name": "4",
+      "coordinates": {
+        "x": "4",
+        "y": "4.0"
+      },
+      "genre": "DRAMA",
+      "id": "3",
+      "creationDate": "2023-02-12T20:00:21.369596063+03:00[Europe\/Moscow]"
+    }
+  ]
+}
