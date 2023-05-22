@@ -17,18 +17,17 @@ public class GetRequestModule {
 
     public Command recieve(){
         ByteArrayInputStream bais = new ByteArrayInputStream(packet.getData());
-        ObjectInputStream ois = null;
+        ObjectInputStream ois;
         try {
             ois = new ObjectInputStream(bais);
         } catch (IOException e) {
             System.out.println("Unable to deserialize Command");
             return null;
         }
-        Command command = null;
+        Command command;
         try {
             command = (Command) ois.readObject();
         } catch (IOException e) {
-            e.printStackTrace();
             System.out.println("Unable to read command");
             return null;
         } catch (ClassNotFoundException e) {

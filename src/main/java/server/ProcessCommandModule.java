@@ -17,7 +17,6 @@ public class ProcessCommandModule {
     public Response process(){
         command.setCollection(arrayList);
         String result = command.runCommand();
-        //System.out.println(result);
         return new Response(result);
     }
 }
